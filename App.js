@@ -28,6 +28,8 @@ export default function App() {
     );
   }
 
+
+
   if (gameIsOver && userNumber) {
     screen = <GameOverScreen />;
   }
